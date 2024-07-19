@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karthik's Web</title>
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link rel="icon" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/f6f6dc9eec.js" crossorigin="anonymous"></script>
+    <script src="./static/js/scrollToTop.js" defer></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <p class="logo-text">Karthik Vadlamudi</p>
+          <!-- <img src="./assets/images/logo.png" class="logo" /> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+           
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1>
+            Hi, I'm
+            <span class="name">Karthik  Vadlamudi</span> 
+           
+          </h1>
+
+        </div>
+        
+      </div>
+    </div>
+
+    <!----------------------------About----------------------------->
+    <div id="about">
+            <div class="container">
+              <div class="row">
+                <div class="about-col-1">
+                  <div class="images">
+                    <img src="assets/images/mine1.jpg" class="round-img" alt=" ">
+                    
+                  </div>
+                </div>
+                <div class="about-col-2 animate-entry-1">
+                  <h1 class="sub-title">About Me</h1>
+                  <p id="self_info">
+                    I'm a student pursuing a Bachelor of Technology in Computer Science and Engineering.
+                    I'm excited to continue learning and growing in my studies and development skills.
+                    I'd love to connect and discuss how I can contribute to your team or project.
+                  </p>
+                </div>
+              </div>
+            </div>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <div class="images">
+              <img src="assets/images/mine1.jpg" alt="Description of the image">
+            </div>
+          </div>
+          <div class="container move-left">
+            <div class="tab-titles">
+              <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+              <div class="tab-links" onclick="opentab('education')">Education</div>
+              <div class="tab-links" onclick="opentab('internship')">Internships</div>
+            </div>
+          
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Programming Languages</span><br />C, Java, Python</li>
+                <li>
+                  <span>Front-End Web Development</span><br />HTML5, CSS3,
+                  JavaScript.
+                </li>
+                <li>
+                  <span>Cloud & Data Base   </span><br />   AWS & SQL, MongoDB
+                 
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.tech in CSE</span><br />Seshadri Rao Gudlavalleru Eng College
+                   <br />CGpa:9.3  (pursuing)
+                </li>
+                <li>
+                  <span>Intermediate Education</span><br />Sri Chaitanya Jr College
+                  <br />Score:96%
+                </li>
+                <li>
+                  <span>Secondary Education</span><br />Sidhartha
+                  Vidyalaya <br />Grade:9.8
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="internship">
+              <ul>
+                <li><span>AWS</span><br /> AICTE AWS virtual cloud internship</li>
+                <li><span>AWS</span><br /> AICTE AWS virtual cloud Architecting</li>
+                <p> Gained hands-on experience with AWS services. <br>
+                  Developed and deployed cloud-based solutions <br>using best practices in AWS architecture.</p>
+              </ul>
+            </div>
+          </div>
+        </div>
+    <!-------------------------------Projects----------------------------->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list animate-entry-1">
+          <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Aquameter</h2>
+            <p class="p-007">
+            
+         
+            <a href="https:" target="_blank">View Project</a>
+           
+          </div>
+
+
+
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>SMS Classifier</h2>
+            <p class="p-007">
+             Done a small machine learning project on message classification using Random Forest classification algorithm.
+
+            </p>
+            <a href="https://github.com/karthik5145/Spam-Message-Classifier-Project.git" target="_blank">View Project</a>
+            
+          </div>
+
+
+          <div>
+            <i class="fa-brands fa-product-hunt"></i>
+            <h2>Gene Expression Classification </h2>
+            <p class="p-007">
+              Completed Gene Expression classification using Naive Bayes algorithm and skilled in utilizing the Orange tool for data analysis and visualization.
+
+            </p>
+            <a href="https://github.com/karthik5145/Gene-Expression-Classification-Project.git" target="_blank">View Project</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+<!-----------------------------certifications------------------------>
+
+        
+
+<div id="certifications">
+  <div class="container">
+    <h1 class="sub-title">My Certifications</h1>
+    <br>
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">DP-900: Microsoft Azure Data Fundamentals</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">Journey to Cloud: Envisioning Your Solution By IBM</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">AWS Academy Graduate – AWS Academy Cloud Foundations</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">AWS Academy Graduate – AWS Academy Cloud Architecting</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">CCNA: Introduction to Networks</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">CCNA: Switching, Routing, and Wireless Essentials</div>
+      </a>
+    </div>
+    
+    <div class="certification">
+      <a class="certification" href="https://www.credly.com/users/karthik-vadlamudi.346d132c" target="_blank">
+        <div class="certification-title">CCNA: Enterprise Networking, Security, and Automation</div>
+      </a>
+    </div>
+    
+  </div>
+</div>
+    <!-----------------------------Contact Us-------------------------->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title"> Get In Touch</h1>
+            <div>
+              <p><i class="fas fa-envelope"></i> karthikvadlamudi3@gmail.com</p>
+
+              <a href="mailto:karthikvadlamudi3@gmail.com" target="_blank" class="btn btn2">Let's Talk</a>
+          </div>
+            <div class="social-icons">
+              <a href="https://www.instagram.com//karthik___vadlamudi" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/karthikvadlamudi9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/karthik5145" target="_blank"><i class="fab fa-github"></i></a>
+              
+             
+              
+             
+                  <button class="resume-btn" id="resume-btn" onclick="window.open('assets/Resume.pdf', '_blank')">
+                      <div class="sign">
+                          <svg viewBox="0 0 640 512">
+                              <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z"/>
+                          </svg>
+                      </div>
+                      <div class="text">Resume</div>
+                  </button>
+              
+              
+                </a>
+            </div>
+        </div>
+      </div>
+
+      <!-- My btn -->
+      <button class="back-to-top hidden-top-btn">
+        <a href="#header"><i class="fa-solid fa-arrow-up fa-xl"></i></a>
+      </button>
+      <div class="copyright">
+        <p>
+          &copy; Karthik. <i class="fa-solid fa-heart"></i> Made with HTML,
+          CSS and JavaScript
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (let tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      window.addEventListener("scroll", function () {
+        var nav = document.querySelector("nav");
+        nav.classList.toggle("scrolled", window.scrollY > 0);
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const slideInElement = document.querySelectorAll(".animate-entry-1");
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("active-animation");
+              // observer.unobserve(entry.target);
+            }
+          });
+        });
+        slideInElement.forEach((el) => observer.observe(el));
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        function isInViewport(element) {
+          const rect = element.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+
+        function handleScroll() {
+          const aboutCol2 = document.querySelector('.about-col-2');
+          const logoText = document.querySelector('.logo-text');
+
+          if (isInViewport(aboutCol2)) {
+            logoText.style.display = 'inline';
+          }
+        }
+
+        window.addEventListener('scroll', handleScroll);
+      });
+
+      //Jello Animation for name 
+
+      document.addEventListener("DOMContentLoaded", function() {
+        const nameElement = document.querySelector('.name');
+        const nameText = nameElement.innerHTML;
+        const letters = nameText.split('').map(letter => {
+            if (letter === ' ') {
+                return ' ';
+            }
+            return `<span class="letter">${letter}</span>`;
+        }).join('');
+        nameElement.innerHTML = letters;
+    });
+
+    </script>
+    <style>
+      .images {
+        width: 20%;
+        height: 50%;
+        position: absolute;
+        left: 50px;
+        bottom: -56%; /* Adjust this value to move the images down */
+      }
+      @media (max-width: 768px) {
+        .images {
+          width: 30%; /* Adjust the width for smaller screens */
+          left: 10px; /* Adjust the left position for smaller screens */
+          bottom: -40%; /* Adjust the bottom position for smaller screens */
+        }
+      }
+      @media (max-width: 480px) {
+        .images {
+          width: 40%; /* Adjust the width for even smaller screens */
+          left: 5px; /* Adjust the left position for even smaller screens */
+          bottom: -20%; /* Adjust the bottom position for even smaller screens */
+        }
+      }
+    </style>
+  </body>
+</html>
