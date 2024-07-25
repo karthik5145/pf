@@ -573,9 +573,9 @@ body::-webkit-scrollbar-thumb {
 }
 
 .certification-title {
-  font-size: 20px;
+  font-size: 22px;
   color: #f4e7e7;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .certification:hover .certification-title {
